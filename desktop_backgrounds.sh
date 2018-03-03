@@ -1,6 +1,5 @@
 #! /bin/bash
 sudo apt-get install xfce4 -yy
-sudo apt-get install xubuntu-desktop -yy
 sudo apt-get install lxde -yy
 sleep 5
 sudo add-apt-repository ppa:gnome3-team/gnome3 -y
