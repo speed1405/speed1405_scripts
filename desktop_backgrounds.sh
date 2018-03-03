@@ -12,7 +12,7 @@ sudo apt-get install mate -yy
 sudo apt-get install mate-dock-applet -yy
 sleep 10
 sudo add-apt-repository ppa:budgie-remix/ppa -y
-sudo apt-get install budgie-desktop -yy
+sudo apt-get install budgie-desktop-environment -yy
 sleep 5
 sudo apt-get install awesome -yy
 sudo apt-add-repository ppa:tycho-s/ppa -y
