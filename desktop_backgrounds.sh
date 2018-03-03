@@ -22,4 +22,7 @@ sudo apt-get install razorqt -yy
 sudo apt-get install cinnamon-desktop-environment -yy
 sudo add-apt-repository ppa:kubuntu-ppa/backports -y
 sudo apt-get install kubuntu-desktop -yy
-sudo apt-get update -y
+sudo apt-get install plasma-desktop -yy
+sudo apt-get install -f -yy
+sudo apt update && sudo apt dist-upgrade
+
