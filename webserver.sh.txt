@@ -1,0 +1,15 @@
+#! /bin/bash
+
+sudo apt-get update
+sudo apt-get install apache2 -yy
+sudo nano /etc/apache2/apache2.conf
+sudo apt-get update && sudo apt-get upgrade
+sudo a2enmod ssl
+sudo service apache2 restart
+sudo mkdir /etc/apache2/ssl
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt
+sudo nano /etc/apache2/sites-available/default-ssl.conf
+sleep 60
+sudo a2ensite default-ssl.conf
+sleep 5
+sudo service apache2 restart
