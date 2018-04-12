@@ -4,9 +4,11 @@ sudo apt-get install lightdm lightdm-gtk-greeter -yy
 sudo apt-get install plasma-desktop -yy
 sudo apt-get install -f -yy
 sudo apt-get update && sudo apt-get upgrade -yy
-sudo apt-get install git dolphin konsole evince -yy
-sudo apt-get install gedit -yy
+sudo apt-get install git dolphin konsole evince default-jdk -yy
+sudo apt-get install gedit gdebi -yy
 sudo apt-get install libreoffice -yy
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo gdebi google-chrome-stable_current_amd64.deb
 sudo apt-get installxserver-xorg x11-xserver-utils xfonts-base x11-utils -yy
 sudo apt-get install git -yy
 sudo apt-get install firefox -yy

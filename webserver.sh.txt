@@ -13,3 +13,4 @@ sleep 60
 sudo a2ensite default-ssl.conf
 sleep 5
 sudo service apache2 restart
+sudo apt-get update && sudo apt-get upgrade
