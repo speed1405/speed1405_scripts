@@ -1,4 +1,4 @@
-#! /bash/bin
+#! bin/bash
 sudo apt-get update && sudo apt-get upgrade -yy
 sudo apt-get install plasma-desktop -yy
 sudo apt-get install -f -yy
